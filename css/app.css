@@ -1,0 +1,1370 @@
+.hidden
+{
+  display: none;
+}
+
+body
+{
+  font-family: 'Press Start 2P', Arial, Times, sans-serif;
+	color: white;
+  font-size: 12px;
+	background: url(../design_and_image/site_background/inflicted.png) fixed;
+}
+
+h1, h2, h3
+{
+	font-family: 'Gugi', Arial, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+ 
+#mainNav
+{
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	background-color: black;
+}
+
+#mainNav ul a
+{
+	display: block;
+	padding: 5px 0 5px 0;
+	color: #8ea76d;
+	background-color: white;
+}
+
+#mainNav li
+{
+	border-bottom: 1px solid #efefef;
+}
+
+#mainNav li:first-child
+{
+	border-top: 1px solid #efefef;
+}
+
+#mainNav li:last-child
+{
+	margin-bottom: 10px;
+}
+
+#mainNav li a:hover
+{
+	background-color: #efefef;
+}
+
+
+.headerBanner
+{
+	margin: 0 auto;
+	margin-top: -90px;
+	overflow: hidden;
+}
+
+
+.logo 
+{
+    clear: both;
+    position: absolute;
+    margin: -250px 15px 0 35px;
+	max-width: 217px;;
+}
+
+.poster
+{
+	margin: -95px 0px 0px 0px;
+	clear: both;
+}
+
+#infoBg
+{
+	background: linear-gradient(rgba(25,178,250,.5), rgba(25,178,250,0));
+	margin: 0 auto;
+	overflow: hidden;
+	clear: both;
+	height: 285px;
+}
+
+
+.mainInfo
+{
+	color: white;
+	opacity: 1;
+	text-align: center;
+	clear: both;
+}
+
+.mainInfo h2
+{
+	font-size: 22px;
+	text-align: center;
+	font-weight: bolder;
+	padding-top: 10px;
+}
+
+.mainInfo p
+{
+	font-size: 12px;
+}
+
+.mainInfo h3
+{
+	font-size: 14px;
+}
+
+.subInfo
+{
+	margin-top: 10px;
+}
+
+.subInfo p
+{
+	font-size: 8px;
+	text-align: center;
+}
+
+.subInfo h2
+{
+	font-size: 14.5px;
+	text-align: center;
+	float: right;
+	padding-top: 7px;
+}
+
+.fedLogo
+{
+	overflow: hidden;
+	float: left;
+	clear: both
+}
+
+.subInfo span
+{
+	color: #1ca9f2;
+}
+
+#footerCon
+{
+	background: linear-gradient(rgba(0, 0, 0, .6),rgba(0, 0, 0, 1));
+	height: 165px;
+	margin-top: 30px;
+	clear: both;
+}
+
+#footerNav
+	{
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 7px;
+		margin-top: 20px;
+		margin-left: -5px;
+	}
+	
+	#footerNav li
+	{
+		border-bottom: none;
+		display: inline;
+
+	}
+	
+	#footerNav li a
+	{
+		dispaly: inline
+	}
+	
+	#footerNav li a:hover
+	{
+		background-color: transparent;
+		color: #0cbbd3;
+		border-bottom: 3px solid #0cbbd3;
+		padding-bottom: 5px;
+		box-shadow: 0 5px 3px -2px cyan;
+}
+	
+	#footerNav li:first-child
+	{
+		border-top: none;
+	}
+
+.compLogos
+{
+	float: left;
+	clear: both;
+	padding-left: 3px;
+}
+
+.footerText
+{
+	color: white;
+	font-size: 5px;
+	text-align: justify;
+	margin-top: 20px;
+	padding: 15px 2px 0px 2px;
+}
+
+/*FILM PAGE*/
+
+.mainImg
+{
+	clear: both;
+	margin-top: -80px;
+}
+
+#filmTitle
+{
+	margin-left: 25px;
+	margin-top: 15px;
+	clear:both;
+	position: relative;
+}
+
+.caption
+{
+	margin-top: -45px;
+	margin-left: 60px;
+	position: absolute;
+	font-size: 16px;
+	opacity: .8;
+}
+
+.about
+{
+	font-size: 12px;
+	text-align:justify;
+	color: #ECECEC;
+	text-indent: 25px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.listStaff
+{
+	line-height: 28px;
+}
+
+.listStaff h3
+{
+	font-size: 16px;
+	font-weight: bolder;
+	margin-bottom: 15px;
+}
+.listStaff span
+{
+	font-size: 10px;
+	font-family: 'Press Start 2P', Arial, Times, sans-serif;
+}
+
+#castList
+{
+	margin-top: 30px;
+	border-left: 5px solid white;
+}
+
+#castList h3
+{
+	float: left;
+	font-size: 17px;
+}
+
+#castList p
+{	
+	float: left;
+	font-size: 12px;
+	text-align: justify;
+	text-indent: 25px;
+	clear:left;
+	margin-bottom: 15px;
+}
+
+.photo
+{
+	float: left;
+	clear: both;
+	max-width: 206;
+}
+
+#videogame
+	{
+		margin-top: 60px;
+		border-top: 5px solid white;
+		background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,0));
+	}
+	.vgImg
+	{
+		padding-top: 10px;
+
+	}
+	#vgTitle
+	{
+		margin-top: 20px;
+		margin-left: 20px;
+		clear: both;
+		position: relative;
+		
+	}
+	.vgCaption
+	{
+	margin-top: -40px;
+	margin-left: 35px;
+	position: absolute;
+	font-size: 12px;
+	opacity: .8;
+	}
+
+
+/*GALLERY PAGE*/
+
+#imgCon
+{
+	border-left: 5px solid white;
+}
+
+#galTitle
+{
+	margin-top: -130px;
+	margin-left: 25px;
+}
+.galcaption
+{
+	margin-top: -80px;
+	margin-left: 45px;
+	font-size: 14px;
+}
+.galImg
+{
+	margin-bottom: 10px;
+}
+
+
+/*VIDEO PAGE*/
+
+.controls {
+	padding: 2em 0;
+	height: 93px;
+	width:301px;
+	margin: 0 auto;
+	position: relative;
+	background: url(../design_and_image/player.png) no-repeat;
+	background-size: 85% auto;
+	margin-left: -135px;
+}  
+
+
+.controls img
+{
+	margin-left: 15px;
+	margin-top: 20px;
+	width: 301px;
+
+}
+#play_button
+{
+	width: 15%;
+	z-index: 20px;
+}
+#pause_button
+{
+	width: 15%;
+	z-index: 3;
+}
+#stop_button
+{
+	width: 15%;
+	z-index: 4;
+}
+
+/*REGISTER PAGE*/
+#regTitle
+{
+	
+	margin-top: -130px;
+	margin-left: 25px;
+}
+.regcaption
+{
+	margin-top: -80px;
+	margin-left: 45px;
+	font-size: 12px;
+}
+
+#regText
+{
+	border-left: 4px solid white;
+	padding-left: 10px;
+	margin-left: -15px;
+}
+#regText h3
+{
+	font-size: 14px;
+	text-align: center;
+}
+
+#regText p
+{
+	font-size: 10px;
+	text-indent: 25px;
+}
+
+#regText span
+{
+	font-size: 7px;
+	text-align: center;
+}
+
+#formCon
+{
+	background-color: white;
+	opacity: .8;
+	padding: 5px;
+	width: 285px;
+}
+#formCon label
+{
+	font-size: 12px;
+}
+
+#submit
+{
+	background-color: #20cadd;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 320px)
+{
+	header img
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width: 375px) 
+{
+	header img
+	{
+		display: none;
+	}
+	
+	.headerBanner
+{
+	margin: 0 auto;
+	margin-top: -90px;
+	width:375px;
+	overflow: hidden;
+}
+
+.logo 
+{
+    clear: both;
+    position: absolute;
+    margin: -270px 15px 0 65px;
+	max-width: 217px;;
+}
+
+.poster
+{
+	margin: -112px 0px 0px 0px;
+	clear: both;
+	width: 350px;
+}
+.subInfo h2
+	{
+		font-size: 18px;
+	}
+
+	/*FILM*/
+.mainImg
+	{
+		width: 350px;
+	}
+#filmTitle
+{
+	margin-left: 45px;
+	margin-top: 15px;
+	clear:both;
+	position: relative;
+}
+
+.caption
+{
+	margin-top: -45px;
+	margin-left: 75px;
+	position: absolute;
+	font-size: 16px;
+	opacity: .8;
+}
+#castList h3
+	{
+		font-size: 19px;
+	}
+.vgImg
+	{
+		padding-top: 10px;
+		width: 350px;
+	}
+#vgTitle
+	{
+		margin-top: 20px;
+		margin-left: 40px;
+		clear: both;
+		position: relative;
+		
+	}
+.vgCaption
+	{
+	margin-top: -40px;
+	margin-left: 52px;
+	position: absolute;
+	font-size: 12px;
+	opacity: .8;
+	}
+.compLogos
+{
+	float: left;
+	clear: both;
+	padding-left: 3px;
+	margin-left: 30px;
+}
+	/*GALLERY*/
+#galTitle
+{
+	margin-top: -130px;
+	margin-left: 45px;
+}
+.galcaption
+{
+	margin-top: -80px;
+	margin-left: 65px;
+	font-size: 14px;
+}
+.galImg
+{
+	margin-bottom: 10px;
+	width: 400px;
+}
+	/*REGISTER*/
+	#regTitle
+{
+	
+	margin-top: -130px;
+	margin-left: 40px;
+}
+.regcaption
+{
+	margin-top: -80px;
+	margin-left: 60px;
+	font-size: 12px;
+}
+
+#regText
+{
+	border-left: 4px solid white;
+	padding-left: 10px;
+	margin-left: -15px;
+}
+#regText h3
+{
+	font-size: 18px;
+	text-align: center;
+}
+
+#formCon
+{
+	background-color: white;
+	opacity: .8;
+	padding: 5px;
+	width: 285px;
+	margin-left: 30px;
+}
+#formCon label
+{
+	font-size: 12px;
+}
+
+#submit
+{
+	background-color: #20cadd;
+	margin: 0 auto;
+}
+}
+
+@media screen and (min-width: 600px){
+	.title-bar
+	{
+		display: none;
+	}
+}
+
+@media screen and (min-width: 768px)
+{
+	header
+	{
+		background: url(../design_and_image/med_header.png) no-repeat;
+		display: block;
+		height: 226px;
+		position: relative
+	}
+	
+	#mainNav
+	{
+		text-align: right;
+		text-transform: uppercase;
+		font-size: 12px;
+		margin-top: 50px;
+		margin-right: 15px;
+		background-color: transparent;
+	}
+	
+	#mainNav li
+	{
+		border-bottom: none;
+		display: inline;
+		margin-left: 20px;
+		background-color: none;
+	}
+	
+	#mainNav li a
+	{
+		display: inline;
+	}
+	
+	#mainNav li a:hover
+	{
+		background-color: transparent;
+		color: #0cbbd3;
+		border-bottom: 3px solid #0cbbd3;
+		padding-bottom: 5px;
+		box-shadow: 0 5px 3px -2px cyan;
+	}
+	
+	#mainNav li:first-child
+	{
+		border-top: none;
+	}
+	.headerBanner
+	{
+		display: none;
+	}
+	.logo
+	{
+		width: 194px;
+		height: 161px;
+		margin-left: -20px;
+		margin-top: -230px;
+		position: absolute;
+	}
+	.poster
+	{
+		width: 502px;
+		margin-left: -60px;
+		margin-top: -130px;
+		clear: both;
+	}
+	#infoBg
+	{
+		width: 246px;
+		height: 600px;
+		margin-top: -600px;
+		clear: both;
+		margin-left: -15px;
+	}
+	.mainInfo
+	{
+		margin-top: 110px;
+	}
+	.subInfo
+	{
+		margin-top: 30px;
+	}
+	.subInfo p
+	{
+		font-size: 16px;
+		margin-top: 30px;
+	}
+	.fedLogo
+	{
+		width:45px;
+		clear: both;
+	}
+	.subInfo h2
+	{
+		font-size: 30px;
+		margin-right: 100px;
+		clear: both;
+		margin-top: -50px;
+	}
+	#footerCon
+	{
+		height: 190px;
+	}
+	#footerNav
+	{
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 12px;
+		margin-top: 20px;
+		margin-left: -5px;
+	}
+	
+	#footerNav li
+	{
+		border-bottom: none;
+		display: inline;
+		margin-left: 5px;
+	}
+	
+	#footerNav li a
+	{
+		dispaly: inline
+	}
+	
+	#footerNav li a:hover
+	{
+		background-color: transparent;
+		color: #0cbbd3;
+		border-bottom: 3px solid #0cbbd3;
+		padding-bottom: 5px;
+		box-shadow: 0 5px 3px -2px cyan;
+	}
+	
+	#footerNav li:first-child
+	{
+		border-top: none;
+	}
+
+	.footerLogo
+	{
+		width: 59px;
+		display: inline;
+		margin-right: 20px;
+	}
+	
+	.footerText
+	{
+		margin-top: 60px;
+		font-size: 7px;
+	}
+	.mainInfo h2
+{
+	font-size: 25px;
+	text-align: center;
+	font-weight: bolder;
+	padding-top: 10px;
+}
+
+
+/*FILM PAGE MQ*/
+
+	.mainImg
+	{
+		width: 576px;
+		margin: -70px 0px 30px 15px;
+		padding-top: 20px;
+	}
+	
+	#filmTitle
+	{
+		left: -140px;
+		clear:both;
+		float: left;
+		
+	}
+	.caption
+	{
+		left: -130px;
+		position: absolute;
+		clear: both;
+		top: 75px;
+	}
+	.about
+	{
+		margin-left: -100px;
+		float: left;
+	}
+	
+	#aboutFilm
+	{
+		width: 365px;
+		margin-left: 25px;
+	}
+	
+	.listStaff
+	{
+		float: right;
+		border-left: 3px solid white;
+		width: 450px;
+		margin-right: 80px;
+	}
+	
+	#castList
+	{
+		border-left: none !important;
+		margin-top: 50px;
+
+	}
+	
+	.photo
+	{
+		width: 128px;
+		float: left;
+		clear: both;
+		margin-bottom: 20px;
+	}
+	
+	#castList h3
+	{
+		font-size: 26px;
+		float: left;
+		margin-top: 60px;
+		margin-left: 20px;
+		margin-bottom: 20px;
+	}
+	
+	#castList p
+	{
+		width: 430px;
+		margin-left: 130px;
+		margin-top: -50px;
+		font-size: 12px;
+	}
+	#videogame
+	{
+		border-top: 5px solid white;
+	}
+	.vgImg
+	{
+		width: 502px;
+		margin-left: 50px;
+
+	}
+	#vgTitle
+	{
+		margin-left: -210px;
+		margin-top: 20px;
+		clear:both;
+		position: relative;
+		float: left
+	}
+	
+	#aboutVg
+	{
+		width: 365px;
+		margin-top: 20px;
+	}
+	
+	.vgCaption
+	{
+		margin-left: -195px;
+		margin-top: 50px;
+		clear: both;
+		color: white;
+		position: absolute;
+		font-size: 12px;
+	}
+	
+	/*GALLERY PAGE MQ*/
+	
+	#galTitle
+	{
+		margin-left: -280px;
+		margin-top: -50px;
+		clear: both;
+	}
+	.galcaption
+	{
+		margin-left: -260px;
+		margin-top: -45px;
+		clear:both;
+	}
+	#imgCon
+	{
+		margin-top: -57px;
+	}
+	#imgCon img
+	{
+		width: 235px;
+		margin-right: 20px;
+	}
+	.galImg 
+	{
+		float: left;
+	}
+	.pic1
+	{
+		float: left;
+		overflow: hidden;
+		clear: right;
+	}
+	.pic2
+	{
+		float: right;
+		clear:both;
+		margin-top: -130px;
+	}
+	.pic3
+	{
+		float: left;
+		overflow: hidden;
+		clear: right;
+	}
+	.pic4
+	{
+		float: right;
+		clear:both;
+		margin-top: -130px;
+	}
+	.pic6
+	{
+		float: right;
+		clear:both;
+		margin-top: -130px;
+	}
+	.pic8
+	{
+		float: right;
+		clear:both;
+		margin-top: -130px;
+	}
+	.pic10
+	{
+		float: right;
+		clear:both;
+		margin-top: -130px;
+	}
+	.pic12
+	{
+		float: right;
+		clear:both;
+		margin-top: -130px;
+	}
+	
+	/*VIDEO PAGE MQ*/
+	#vidCon
+	{
+		border-left: 5px solid white;
+		padding-left: 20px;
+		margin-top: -55px;
+	}
+	
+	#vidCon video
+	{
+		width: 450px;
+		
+	}
+	
+	/*REGISTER PAGE MQ*/
+	.regCon
+	{
+		margin-top: -57px;
+	}
+	#regTitle
+	{
+		margin-left: -280px;
+		margin-top: -50px;
+		clear: both;
+	}
+	.regcaption
+	{
+		margin-left: -260px;
+		margin-top: -45px;
+		clear:both;
+	}
+	#regText h3
+	{
+		font-size: 22px;
+		text-align: left;
+	}
+	#regText p
+	{
+		width: 540px;
+		text-align: justify;
+	}
+	
+	#regText span
+	{
+		font-size: 10px;
+		text-align: center;
+	}
+	#formCon
+{
+	background-color: white;
+	opacity: .8;
+	padding: 5px;
+	width: 285px;
+}
+	#formCon label
+{
+	font-size: 12px;
+}
+
+#submit
+{
+	background-color: #20cadd;
+	margin: 0 auto;
+}
+}
+
+
+@media screen and (min-width: 1200px)
+{
+	header
+	{
+		background: url(../design_and_image/large_header.png) no-repeat;
+		display: block;
+		height: 200px;
+		width: 1200px;
+	}
+	
+	.logo
+	{
+		width: 217px;
+		height: 181px;
+		margin-left: -10px;
+		margin-top: -200px;
+		position: absolute;
+	}
+	
+	#mainNav
+	{
+		margin-top: 60px;
+		padding-right: 20px;
+		font-size: 18px;
+	}
+	
+	.poster
+	{
+		width: 764px;
+		margin-left: -60px;
+		margin-top: -90px;
+		clear: both;
+	}
+	
+	#infoBg
+	{
+		width: 410px;
+		height: 875px;
+		margin-top: -850px;
+		margin-left: 3px;
+	}
+	.mainInfo
+	{
+		line-height: 12px;
+	}
+	.mainInfo h2
+	{
+	font-size: 33px;
+	text-align: center;
+	font-weight: bolder;
+	}
+
+	.mainInfo p
+	{
+	font-size: 18px;
+	}
+
+	.mainInfo h3
+	{
+	font-size: 20px;
+	}
+	.fedLogo
+	{
+		width: 71px;
+		height: 71px;
+		margin-top: 30px;
+		margin-left: 250px;
+	}
+	
+	.subInfo h2
+	{
+		font-size: 33px;
+		margin-right: 250px;
+		margin-top: -65px;
+
+	}
+	.footerLogo
+	{
+		margin-right: 50px;
+	}
+	.compLogos
+	{
+		margin-left: 250px;
+	}
+	
+	/*FILM PAGE MQ*/
+	
+	.mainImg
+	{
+		width: 916px;
+		margin: -40px 0px 30px 30px;
+		padding-top: 20px;
+	}
+	
+	#filmTitle
+	{
+		margin-left: -325px;
+		clear:both;
+		float: left;
+		width: 200px;
+		margin-top: -20px;
+		
+	}
+	.caption
+	{
+		margin-left: -280px;
+		position: absolute;
+		clear: both;
+		top: 50px;
+		font-size: 25px;
+	}
+	.about
+	{
+		margin-left: -100px;
+		float: left;
+	}
+	
+	#aboutFilm
+	{
+		width: 610px;
+		margin-left: -395px;
+		margin-top: -30px;
+	}
+	
+	.listStaff
+	{
+		float: right;
+		border-left: 3px solid white;
+		width: 725px;
+		margin-right: 95px;
+	}
+	
+	.listStaff h3
+	{
+		font-size: 20px;
+	}
+	
+	.listStaff span
+	{
+		font-size: 12px;
+	}
+	
+	#castList
+	{
+		border-left: none !important;
+		margin-top: 50px;
+
+	}
+	
+	.photo
+	{
+		width: 206px;
+		float: left;
+		clear: both;
+		margin-bottom: 40px;
+	}
+	
+	#castList h3
+	{
+		font-size: 30px;
+		float: left;
+		margin-top: 60px;
+		margin-left: 20px;
+		margin-bottom: 20px;
+	}
+	
+	#castList p
+	{
+		width: 720px;
+		margin-left: 230px;
+		margin-top: -130px;
+		font-size: 14px;
+	}
+	#videogame
+	{
+		border-top: 5px solid white;
+		margin-top: 90px;
+	}
+	.vgImg
+	{
+		width: 800px;
+		margin-top: 20px;
+		margin-left: -5px;
+
+	}
+	#vgTitle
+	{
+		margin-left: -325px;
+		clear:both;
+		float: left;
+		width: 200px;
+		margin-top: 20px;
+	}
+	
+	#aboutVg
+	{
+		width: 620px;
+		margin-top: 20px;
+		margin-right: 20px;
+	}
+	#aboutVg p
+	{
+		font-size: 14px;
+	}
+	.vgCaption
+	{
+		margin-left: -305px;
+		margin-top: 60px;
+		clear: both;
+		color: white;
+		position: absolute;
+		font-size: 18px;
+	}
+	
+	/*GALLERY PAGE MQ*/
+	
+	#galTitle
+	{
+		margin-left: -410px;
+		margin-top: 10px;
+		clear: both;
+		width: 180px;
+	}
+	.galcaption
+	{
+		margin-left: -380px;
+		margin-top: -55px;
+		clear: both;
+		font-size: 18px;
+	}
+	#imgCon
+	{
+		margin-top: -75px;
+	}
+	#imgCon img
+	{
+		width: 371px;
+		margin-right: 40px;
+	}
+	.galImg 
+	{
+		float: left;
+	}
+	.pic1
+	{
+		float: left;
+		overflow: hidden;
+		clear: right;
+	}
+	.pic2
+	{
+		float: right;
+		clear:both;
+		margin-top: -205px;
+	}
+	.pic3
+	{
+		float: left;
+		overflow: hidden;
+		clear: right;
+	}
+	.pic4
+	{
+		float: right;
+		clear:both;
+		margin-top: -205px;
+	}
+	.pic6
+	{
+		float: right;
+		clear:both;
+		margin-top: -205px;
+	}
+	.pic8
+	{
+		float: right;
+		clear:both;
+		margin-top: -205px;
+	}
+	.pic10
+	{
+		float: right;
+		clear:both;
+		margin-top: -205px;
+	}
+	.pic12
+	{
+		float: right;
+		clear:both;
+		margin-top: -205px;
+	}
+	
+/*VIDEO PAGE MQ*/
+	#vidCon
+	{
+		border-left: 5px solid white;
+		padding-left: 20px;
+		margin-top: -65px;
+	}
+	
+	#vidCon video
+	{
+		width: 600px;
+		margin-left: 60px;
+		
+	}
+
+	
+/*REGISTER PAGE MQ*/
+	.regCon
+	{
+		margin-top: -75px;
+	}
+	#regTitle
+	{
+		margin-left: -410px;
+		margin-top: 10px;
+		clear: both;
+		width: 180px;
+	}
+	.regcaption
+	{
+		margin-left: -390px;
+		margin-top: -55px;
+		clear: both;
+		font-size: 18px;
+	}
+	#regText h3
+	{
+		font-size: 30px;
+		text-align: left;
+	}
+	#regText p
+	{
+		width: 840px;
+		text-align: justify;
+		font-size: 16px;
+	}
+	
+	#regText span
+	{
+		font-size: 12px;
+		text-align: center;
+	}
+	#formCon
+{
+	background-color: white;
+	opacity: .8;
+	padding: 5px;
+	width: 385px;
+}
+	#formCon label
+{
+	font-size: 12px;
+}
+
+#submit
+{
+	background-color: #20cadd;
+	margin: 0 auto;
+}
+}
+
+
+
